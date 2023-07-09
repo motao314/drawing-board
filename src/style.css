@@ -3,7 +3,20 @@
   line-height: 1.5;
   font-weight: 500;
 }
-
+body,
+h1,
+h2,
+h3,
+h4,
+p{
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -14,16 +27,12 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
   min-width: 1280px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  height: 100vh;
 }
 #app {
+  display: flex;
   width: 100%;
+  flex: 1;
 }
